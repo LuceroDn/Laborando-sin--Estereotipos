@@ -469,3 +469,12 @@
   height: 25rem;
   
 }
+
+.postCard {
+  width: 30rem;
+  height: 30;
+}
+
+.postCard {
+  margin-right: 60%; 
+}
