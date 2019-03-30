@@ -5,6 +5,7 @@
   
   body {
     font-family: 'Lato';
+    font-size: 1.4rem;
   }
   
   h1,
@@ -16,7 +17,25 @@
     font-family: 'Catamaran';
     font-weight: 800 !important;
   }
+  h1 {
+    margin-top: 5rem;
+  }
+
+  h2 {
+    margin-top: -5rem;
+    font-size: 2.7rem;
+  }
+
+  h2.display-4 {
+    margin-top: -5rem;
+    font-size: 2.5rem;
+  }
   
+  h2.display-4 {
+    margin-top: -5rem;
+    font-size: 2.5rem;
+  }
+
   .nav1 {
     padding-top: 1rem;
     padding-bottom: 1rem;
