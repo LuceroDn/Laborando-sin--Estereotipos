@@ -428,7 +428,7 @@
   /* Card index.html*/
   .card {
       margin-left: 20%;
-      height: 200px;
+      height: 10rem;
   }
   
   /* Footer */
@@ -438,9 +438,7 @@
    }
   
 /* Talleres calendario */
-  .div.container {
-    margin-left: 13%;
-  }
+
   
 
 
@@ -470,4 +468,10 @@
   display: flex;
   align-content: center;
   justify-content: center;
+  }
+  
+.cardDirectorio {
+  width: 40rem;
+  height: 25rem;
+
 }

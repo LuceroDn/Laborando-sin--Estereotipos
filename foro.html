@@ -18,7 +18,6 @@
   </head>
   <body>
 
-
       <ul class="nav1">
           <li class="nav-item">
             <a class="nav-link disabled text-left" href="#" tabindex="-1" aria-disabled="true">Laborando sin Estereotipos</a>
@@ -45,68 +44,56 @@
                 </div>
               </section>
 
-              <div class="col-lg-12 ">
-                  <div class="row align-items-center title">
-                      <div class="p-9">
-                          <h1 class="who">¿Quiénes somos?</h1>
-                        </div>
-                    </div>
-                 </div><br><br><br><br>
+              <div class="card">
+                    <div class="card-header">
+                      <textarea name="¡Comparte tu viaje!" class="post" id="" cols="30" rows="6"></textarea>
 
-              <section>
-                    <div class="container">
-                      <div class="row align-items-center">
-                        <div class="col-lg-6 order-lg-2">
-                          <div class="p-5">
-                            <img class="img-fluid rounded-circle" src="https://image.freepik.com/vector-gratis/dia-internacional-mujer-vector-patron-caras-mujeres_1015-803.jpg" alt="">
-                          </div>
-                        </div>
-                        <div class="col-lg-6 order-lg-1">
-                          <div class="p-5">
-                            <h2 class="display-5">Somos mujeres con un objetivo en común...</h2>
-                            <p> Eliminar los estereotipos fomentando la inclusión laboral de las mujeres en oficios No Tradicionales como: plomería, electricidad, acabados, entre otros, que por roles de género no han estado involucradas de manera equitativa en el mundo profesional. </p>
-                          </div>
-                        </div>
-                      </div>
                     </div>
-                  </section>
-                
-                  <section>
-                    <div class="container">
-                      <div class="row align-items-center">
-                        <div class="col-lg-6">
-                          <div class="p-5">
-                            <img class="img-fluid rounded-circle" src="https://i.pinimg.com/564x/67/af/72/67af7237dcf15b873ce4921648a438b3.jpg?b=t" alt="">
-                          </div>
-                        </div>
-                        <div class="col-lg-6">
-                          <div class="p-5">
-                            <h2 class="display-4">Nuestra misión es...</h2>
-                            <p>Servir como vinculo entre las cámaras e instituciones que ofrecen cursos y talleres de Oficios No Tradicionales y las mujeres que desean superarse de forma profesional, obtener independencia económica, además de fortalecer su autoestima al ver que tienen la capacidad de ejercer estos oficios.</p>
-                          </div>
-                        </div>
-                      </div>
+                    <div class="card-body">
+                      <h5 class="card-title"></h5>
+                      <p class="card-text"></p>
+                      <a href="#" class="btn btn-info">Publicar</a>
+                      <select name="filter" id="Filter">
+                          <option value="Público">Público</option>
+                          <option value="Privado">Privado</option>
+                      </select>
                     </div>
-                  </section>
-                
-                  <section>
-                    <div class="container">
-                      <div class="row align-items-center">
-                        <div class="col-lg-6 order-lg-2">
-                          <div class="p-5">
-                            <img class="img-fluid rounded-circle" src="https://i.pinimg.com/564x/cc/b6/f6/ccb6f613a4be1d1cccab5ee17ddcf458.jpg" alt="">
-                          </div>
+                  </div><br>
+
+
+
+                  <div class="card text-center">
+                        <div class="card-header">
+                          User <span class="fas fa-user"></span>
                         </div>
-                        <div class="col-lg-6 order-lg-1">
-                          <div class="p-5">
-                            <h2 class="display-4">Buscamos generar una red sororaria de mujeres...</h2>
-                            <p>Que sean ejemplo para la sociedad e inspiren a otras mujeres a crecer.</p>
-                          </div>
+                        <div class="card-body">
+                          <h5 class="card-title"></h5>
+                          <p class="card-text"></p>
                         </div>
-                      </div>
-                    </div>
-                  </section>
-      
+                        <div class="card-footer text-muted">
+                                <button><span class="fas fa-heart"></span></button>
+                                <button><span class="fas fa-pencil-alt"></span></button>
+                                <button><span class="fas fa-trash-alt"></span></button>
+                        </div>
+                      </div><br>
+
+
+                      <div class="card text-center">
+                            <div class="card-header">
+                              User <span class="fas fa-user"></span>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title"></h5>
+                              <p class="card-text"></p>
+                            </div>
+                            <div class="card-footer text-muted">
+                                    <button><span class="fas fa-heart"></span></button>
+                                    <button><span class="fas fa-pencil-alt"></span></button>
+                                    <button><span class="fas fa-trash-alt"></span></button>
+                            </div>
+                          </div>
+
+              
 
           <!-- Footer -->
   <footer class="py-4 bg-black">
@@ -117,6 +104,8 @@
     </footer>
     
     
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
