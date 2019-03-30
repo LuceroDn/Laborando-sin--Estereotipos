@@ -59,3 +59,43 @@ $('.open-overlay').click(function() {
       })
     }
   })
+
+
+  //llave del proyecto
+  
+var config = {
+ apiKey: "AIzaSyA-RoBa-FiAmyEhyQAhBRJueSCDmC8KNVc",
+ authDomain: "talleresdeoficios-71857.firebaseapp.com",
+ databaseURL: "https://talleresdeoficios-71857.firebaseio.com",
+ projectId: "talleresdeoficios-71857",
+ storageBucket: "talleresdeoficios-71857.appspot.com",
+ messagingSenderId: "379073271267"
+};
+
+firebase.initializeApp(config);
+let institutionsList = document.querySelector(".showInstituciones");
+ var db = firebase.firestore();
+ db.collection("Instituciones").onSnapshot((querySnapshot) => {
+   let card=" ";
+   querySnapshot.forEach((doc) => {
+       card=card +
+       `<div class="containerD py-3">
+       <div class="card cardDirectorio">
+         <div class="row ">
+             <div class="col-md-8 px-3">
+               <div class="card-block px-3">
+                 <h4 class="card-title">"`+ doc.data().name  + " " +` </h4>
+                 <p class="card-text">  `+ doc.data().services + " " +` </p>
+                 <p class="card-text">`+doc.data().schedule +  " " + doc.data().tel + " " +doc.data().email+ "" +doc.data().address + " " +doc.data().moreInformation+ " " +`</p>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>`
+     institutionsList.innerHTML = card;
+
+       console.log(`${doc.id} => ${doc.data().name}`);
+   });
+
+});

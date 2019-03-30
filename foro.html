@@ -44,15 +44,56 @@
                 </div>
               </section>
 
-              <div class="container">
+              <div class="card">
+                    <div class="card-header">
+                      <textarea name="¡Comparte tu viaje!" class="post" id="" cols="30" rows="6"></textarea>
 
-                  <div class="container">
-                      <iframe class="calendar align-items-center" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23339999&amp;src=hm8m3tqe729ne6daafg94ldaf4%40group.calendar.google.com&amp;color=%235C1158&amp;ctz=America%2FMexico_City" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-                  
                     </div>
-                  
-                  </div>
-                  <!-- container -->
+                    <div class="card-body">
+                      <h5 class="card-title"></h5>
+                      <p class="card-text"></p>
+                      <a href="#" class="btn btn-info">Publicar</a>
+                      <select name="filter" id="Filter">
+                          <option value="Público">Público</option>
+                          <option value="Privado">Privado</option>
+                      </select>
+                    </div>
+                  </div><br>
+
+
+
+                  <div class="card text-center">
+                        <div class="card-header">
+                          User <span class="fas fa-user"></span>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title"></h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer text-muted">
+                                <button><span class="fas fa-heart"></span></button>
+                                <button><span class="fas fa-pencil-alt"></span></button>
+                                <button><span class="fas fa-trash-alt"></span></button>
+                        </div>
+                      </div><br>
+
+
+                      <div class="card text-center">
+                            <div class="card-header">
+                              User <span class="fas fa-user"></span>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title"></h5>
+                              <p class="card-text"></p>
+                            </div>
+                            <div class="card-footer text-muted">
+                                    <button><span class="fas fa-heart"></span></button>
+                                    <button><span class="fas fa-pencil-alt"></span></button>
+                                    <button><span class="fas fa-trash-alt"></span></button>
+                            </div>
+                          </div>
+
+              
 
           <!-- Footer -->
   <footer class="py-4 bg-black">
@@ -63,6 +104,8 @@
     </footer>
     
     
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
