@@ -1,1 +1,1 @@
-# Laborando-sin--Estereotipos
+# Laborando-sin-Estereotipos
